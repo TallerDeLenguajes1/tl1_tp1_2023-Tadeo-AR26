@@ -9,4 +9,10 @@ El archivo .gitignore debe ser añadido para compartir las reglas de ignore con 
 
 Para ignorar un archivo se debe escribir su nombre dentro de .gitignore, utilizando la dirección relativa del archivo en relación a la ubicación de .gitignore
 
-En caso de que se desee ignorar un archivo previamente incluido en el repositorio es necesario utilizar en git Bash el comando $ git rm --cached FILENAME.# tl1_tp1_2023-Tadeo-AR26
+En caso de que se desee ignorar un archivo previamente incluido en el repositorio es necesario utilizar en git Bash el comando $ git rm --cached FILENAME.
+
+
+### **Ejercicio 3-g**
+
+En los apartados 2 y 3 el resultado es el mismo debido a que el puntero almacena la dirección de memoria de la variable a la que está apuntando, en este caso _num_
+En el ejercicio Nº4 se obtiene un valor distinto, ya que esta vez no se muestra por pantalla la dirección de memoria de la variable _num_ sino la del puntero, es decir la dirección de memoria de la variable _pnum_
